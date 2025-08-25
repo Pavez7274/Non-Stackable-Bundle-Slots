@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.kaffssist.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["BCC"],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

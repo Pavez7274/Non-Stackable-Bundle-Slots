@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "nsbs",
+	"version": "${version}",
+	"name": "Non-Stackable Bundle Slots",
+	"description": "Allow non-stackable items to fit in bundles - at the cost of some bundle slots.",
+	"authors": [ "Kaffssist" ],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "AGPL-3.0-only",
+	"icon": "assets/nsbs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [ "net.kaffssist.NSBS" ]
+	},
+	"mixins": [ "nsbs.mixins.json" ],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"fabric-api"  : "*",
+		"minecraft"   : "~1.21.5",
+		"java"        : ">=21"
+	}
+}
