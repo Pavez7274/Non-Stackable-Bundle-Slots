@@ -1,20 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "nsbs",
 	"version": "${version}",
-	"name": "Non-Stackable Bundle Slots",
-	"description": "Allow non-stackable items to fit in bundles - at the cost of some bundle slots.",
-	"authors": [ "Kaffssist" ],
-	"contact": {
-		"sources": "https://github.com/Pavez7274/Non-Stackable-Bundle-Slots"
-	},
-	"license": "AGPL-3.0-only",
-	"icon": "assets/nsbs/icon.png",
+	"id": "nsbs",
+	"name":
+		"Non-Stackable Bundle Slots",
+
+	"description":
+		"Allow non-stackable items to fit in bundles - at the cost of some slots.",
+
+	"authors":
+		[ "Kaffssist" ],
+
+	"contact":
+		{ "sources": "https://github.com/Pavez7274/Non-Stackable-Bundle-Slots" },
+
+	"license":
+		"AGPL-3.0-only",
+
+	"icon":
+		"assets/nsbs/icon.png",
+
 	"environment": "*",
-	"entrypoints": {
-		"main": [ "net.kaffssist.NSBS" ]
-	},
-	"mixins": [ "nsbs.mixins.json" ],
+	"entrypoints":
+		{ "main": [ "net.kaffssist.NSBS" ] },
+
+	"mixins":
+		[ "nsbs.mixins.json" ],
+
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"fabric-api"  : "*",
